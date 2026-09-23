@@ -1,13 +1,13 @@
 {
-  "name": "transactions-service",
+  "name": "notifications-service",
   "version": "1.0.0",
-  "description": "Microservicio de registro y categorización de transacciones para Centavo",
+  "description": "Microservicio de alertas y notificaciones de sobregasto para Centavo",
   "type": "module",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "test": "node tests/transaction.test.js"
+    "test": "node tests/notification.test.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
